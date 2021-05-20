@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "image": "http://placeimg.com/373/215/any",
+    "title": "Watches",
+    "subtitle": "Starting at",
+    "price": "$99.00",
+    "link": "/shop-grid-standard"
+  },
+  {
+    "id": 2,
+    "image": "https://placebear.com/373/215",
+    "title": "Plo Bag",
+    "subtitle": "Starting at",
+    "price": "$79.00",
+    "link": "/shop-grid-standard"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/373/215",
+    "title": "Sunglass",
+    "subtitle": "Starting at",
+    "price": "$29.00",
+    "link": "/shop-grid-standard"
+  },
+  {
+    "id": 4,
+    "image": "http://placeimg.com/373/215/any",
+    "title": "Sun Hat",
+    "subtitle": "Starting at",
+    "price": "$12.00",
+    "link": "/shop-grid-standard"
+  }
+]

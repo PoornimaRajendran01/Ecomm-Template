@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Stylish",
+    "subtitle": "Male Clothes",
+    "text": "30% off Summer Vacation",
+    "image": "https://picsum.photos/507/541",
+    "url": "/shop-grid-standard",
+    "shapeImage": "/assets/img/icon-img/slider-shape.png",
+    "shapeTitle": "Sale",
+    "shapeSubtitle": "$99.00"
+  },
+  {
+    "id": 2,
+    "title": "Stylish",
+    "subtitle": "Female Clothes",
+    "text": "20% off Summer Vacation",
+    "image": "https://placebear.com/507/541",
+    "url": "/shop-grid-standard",
+    "shapeImage": "/assets/img/icon-img/slider-shape.png",
+    "shapeTitle": "Sale",
+    "shapeSubtitle": "$20.00"
+  }
+]

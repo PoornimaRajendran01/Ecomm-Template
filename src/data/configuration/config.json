@@ -1,0 +1,68 @@
+[{
+  "id": 1,
+  "name":"Customer 1",
+  "theme":{
+  "backgroundcolor":"#19252D",
+  "categoryColor":"#3A656F",
+   "color":"#F7E7CE"
+  }
+},{
+      "id": 2,
+      "name":"Customer 2",
+      "theme":{
+      "backgroundcolor":"#907fa4",
+      "categoryColor":"#a6d6d6",
+       "color":"#ededd0"
+  }
+    },
+    {
+      "id": 3,
+      "name":"Customer 3",
+      "theme":{
+      "backgroundcolor":"#a39391",
+      "categoryColor":"#e79686",
+       "color":"#ecd6c7"
+      }
+    },{
+          "id": 4,
+          "name":"Customer 4",
+          "theme":{
+          "backgroundcolor":"#66a4ac",
+          "categoryColor":"#rgba(6,86,91,1)",
+           "color":"#c2dde4"
+      }
+        },
+        {
+          "id": 5,
+          "name":"Customer 5",
+          "theme":{
+          "backgroundcolor":"#f6f5f5",
+          "categoryColor":"#276678",
+           "color":"#1687a7"}
+      },{
+          "id": 6,
+          "name":"Customer 6",
+          "theme":{
+          "backgroundcolor":"#716e77",
+          "categoryColor":"#e79686",
+           "color":"#ecd6c7"
+      }
+        },
+        {
+          "id": 7,
+          "name":"Customer 7",
+          "theme":{
+          "backgroundcolor":"#84596B",
+          "categoryColor":"#CECFCE",
+           "color":"#FFFFFF"}
+      },
+            {
+            "id": 8,
+            "name":"Customer 8",
+            "theme":{
+            "backgroundcolor":"#09194F",
+            "categoryColor":"#00818A",
+             "color":"#F9CE00"
+        }
+          }
+] 

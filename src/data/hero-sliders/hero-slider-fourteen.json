@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome to Flone",
+    "subtitle": "30% off Summer Vacation",
+    "image": "http://placeimg.com/1920/850/any",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 2,
+    "title": "Smart Products",
+    "subtitle": "40% off Summer Vacation",
+    "image": "https://loremflickr.com/1920/850",
+    "url": "/shop-grid-standard"
+  }
+]
