@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React, { useEffect, Suspense, lazy, useState } from "react";
+import React, { useEffect, Suspense, lazy } from "react";
 import ScrollToTop from "./helpers/scroll-top";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ToastProvider } from "react-toast-notifications";
@@ -109,18 +109,14 @@ const Compare = lazy(() => import("./pages/other/Compare"));
 const Checkout = lazy(() => import("./pages/other/Checkout"));
 
 const NotFound = lazy(() => import("./pages/other/NotFound"));
-const SELECTED_CONFIGURATION=1;
 const App = (props) => {
 
-
-const [params,setParams]= useState(undefined);
 useEffect(()=>{
   const searchParams = new URLSearchParams(window.location.search);
 if(searchParams.has('config')){
   const activeConfig= configuration.find(config=>config.id === Number(searchParams.get('config')));
     localStorage.setItem('config',JSON.stringify(activeConfig));
     document.getElementById('root').style.background= activeConfig.theme.backgroundcolor;
-    console.log('activeConfig',activeConfig);
 }
 },[]);
 

@@ -43,9 +43,6 @@ const ProductDescriptionInfo = ({
   const styles = {
     color: config.theme.color
   }
-  const background = {
-    background: config.theme.backgroundcolor
-  }
 
   return (
     <div className="product-details-content ml-70" >

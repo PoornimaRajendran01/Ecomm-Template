@@ -29,9 +29,6 @@ const FooterThree = ({
     setScroll(window.scrollY);
   };
   const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.categoryColor
-  }
   const color = {
     color: config.theme.color
   }

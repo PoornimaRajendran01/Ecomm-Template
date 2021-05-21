@@ -12,9 +12,6 @@ const ShopTopAction = ({
   const styles = {
     color: config.theme.color
   }
-  const background = {
-    background: config.theme.backgroundcolor
-  }
   return (
     <div className="shop-top-bar mb-35">
       <div className="select-shoing-wrap">

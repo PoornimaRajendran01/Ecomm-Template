@@ -30,9 +30,6 @@ const HeaderOne = ({
     setScroll(window.scrollY);
   };
   const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.categoryColor
-  }
   const background = {
     background: config.theme.backgroundcolor
   }

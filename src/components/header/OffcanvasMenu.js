@@ -6,9 +6,7 @@ import NavMenu from "./NavMenu";
 
 const OffcanvasMenu = ({ activeState, getActiveState }) => {
   const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
+
   const background = {
     background: config.theme.backgroundcolor
   }

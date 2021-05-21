@@ -22,9 +22,6 @@ const ProductGridSingle = ({
   const styles = {
     color: config.theme.color
   }
-  const background = {
-    background: config.theme.backgroundcolor
-  }
   const [modalShow, setModalShow] = useState(false);
   const { addToast } = useToasts();
 

@@ -7,9 +7,6 @@ const ShopTag = ({ tags, getSortParams }) => {
   const styles = {
     color: config.theme.categoryColor
   }
-  const color = {
-    color: config.theme.color
-  }
   return (
     <div className="sidebar-widget mt-50">
       <h4 className="pro-sidebar-title" style={styles}>Tag </h4>

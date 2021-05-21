@@ -28,9 +28,6 @@ const HeaderSix = ({ layout, headerPaddingClass, headerBgClass }) => {
     setOffcanvasActive(state);
   };
   const config = getConfig();
-  const styles = {
-    color: config.theme.color
-  }
   const background = {
     background: config.theme.backgroundcolor
   }

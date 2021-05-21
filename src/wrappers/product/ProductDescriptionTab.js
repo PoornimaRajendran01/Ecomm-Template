@@ -8,9 +8,6 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
   const styles = {
     color: config.theme.color
   }
-  const background = {
-    background: config.theme.backgroundcolor
-  }
   return (
     <div className={`description-review-area ${spaceBottomClass}`}>
       <div className="container">

@@ -34,11 +34,7 @@ const FooterFour = ({
     setScroll(window.scrollY);
   };
   const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.categoryColor
-  }
   const color = {
-    background:"white",
     color: config.theme.color
   }
   

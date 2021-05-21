@@ -6,9 +6,6 @@ const FeatureIconTwoSingle = ({ data, spaceBottomClass, textAlignClass }) => {
   const styles = {
     color: config.theme.color
   }
-  const background = {
-    background: config.theme.backgroundcolor
-  }
   return (
     <div className="col-md-4">
       <div

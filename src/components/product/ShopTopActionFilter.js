@@ -14,9 +14,6 @@ const ShopTopActionFilter = ({
   const styles = {
     color: config.theme.color
   }
-  const background = {
-    background: config.theme.backgroundcolor
-  }
   return (
     <Fragment>
       <div className="shop-top-bar mb-35">

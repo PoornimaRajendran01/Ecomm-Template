@@ -11,9 +11,6 @@ const SectionTitleTwo = ({
   const styles = {
     color: config.theme.color
   }
-  const background = {
-    background: config.theme.backgroundcolor
-  }
 
   return (
     <div

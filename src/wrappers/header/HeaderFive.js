@@ -6,9 +6,6 @@ import NavMenu from "../../components/header/NavMenu";
 
 const HeaderFive = () => {
   const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.categoryColor
-  }
   const textColor= {
     color: config.theme.color
   }
