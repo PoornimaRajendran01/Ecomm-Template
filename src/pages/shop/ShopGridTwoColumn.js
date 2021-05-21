@@ -12,6 +12,10 @@ import ShopTopbar from "../../wrappers/product/ShopTopbar";
 import ShopProducts from "../../wrappers/product/ShopProducts";
 
 const ShopGridTwoColumn = ({ location, products }) => {
+  const config=JSON.parse(localStorage.getItem('config'));
+    const color = {
+      background: config.theme.color
+    }
   const [layout, setLayout] = useState("grid two-column");
   const [sortType, setSortType] = useState("");
   const [sortValue, setSortValue] = useState("");
@@ -94,7 +98,7 @@ const ShopGridTwoColumn = ({ location, products }) => {
                 <ShopProducts layout={layout} products={currentData} />
 
                 {/* shop product pagination */}
-                <div className="pro-pagination-style text-center mt-30">
+                <div className="pro-pagination-style text-center mt-30" style={color}>
                   <Paginator
                     totalRecords={sortedProducts.length}
                     pageLimit={pageLimit}

@@ -34,7 +34,7 @@ const FooterTwo = ({
   };
   const config=JSON.parse(localStorage.getItem('config'));
   const color = {
-    color: config.theme.color
+    background: config.theme.color
   }
   return (
     <footer
