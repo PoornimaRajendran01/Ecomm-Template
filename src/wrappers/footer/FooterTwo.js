@@ -32,10 +32,7 @@ const FooterTwo = ({
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
-  const config=JSON.parse(localStorage.getItem('config'));
-  const color = {
-    background: config.theme.color
-  }
+
   return (
     <footer
       className={`footer-area ${
@@ -119,7 +116,7 @@ const FooterTwo = ({
           </div>
         </div>
       </div>
-      <button style={color}
+      <button
         className={`scroll-top ${scroll > top ? "show" : ""}`}
         onClick={() => scrollToTop()}
       >
