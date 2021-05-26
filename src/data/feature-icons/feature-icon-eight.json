@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/icon-img/support-1.png",
+    "image": "http://placeimg.com/600/800/any?960",
     "title": "Free Home Delivery"
   },
   {
     "id": 2,
-    "image": "/assets/img/icon-img/support-12.png",
+    "image": "http://placeimg.com/600/800/any?961",
     "title": "Secure Payment"
   },
   {
     "id": 3,
-    "image": "/assets/img/icon-img/support-4.png",
+    "image": "http://placeimg.com/600/800/any?962",
     "title": "Order Discount"
   },
   {
     "id": 4,
-    "image": "/assets/img/icon-img/support-11.png",
+    "image": "http://placeimg.com/600/800/any?960",
     "title": "24 x 7 Online Support"
   }
 ]

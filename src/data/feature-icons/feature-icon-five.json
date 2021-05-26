@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/icon-img/support-1.png",
+    "image": "http://placeimg.com/600/800/any?962",
     "title": "Free Shipping",
     "subtitle": "ALL ORDER OVER $30"
   },
   {
     "id": 2,
-    "image": "/assets/img/icon-img/support-2.png",
+    "image": "http://placeimg.com/600/800/any?963",
     "title": "Online support",
     "subtitle": "SUPPORT 24/7"
   },
   {
     "id": 3,
-    "image": "/assets/img/icon-img/support-3.png",
+    "image": "http://placeimg.com/600/800/any?964",
     "title": "100% money back",
     "subtitle": "100% SECURITY"
   }

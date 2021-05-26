@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-48.png",
+    "image": "http://placeimg.com/600/800/any?906",
     "title": "Male Kids",
     "subtitle": "Starting at",
     "price": "$99.00",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-49.png",
+    "image": "http://placeimg.com/600/800/any?907",
     "title": "Female kids",
     "subtitle": "Starting at",
     "price": "$79.00",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner-50.png",
+    "image": "http://placeimg.com/600/800/any?908",
     "title": "Featured",
     "subtitle": "Starting at",
     "price": "$29.00",

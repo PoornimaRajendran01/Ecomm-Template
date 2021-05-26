@@ -12,10 +12,6 @@ const HeaderTop = ({
   dispatch,
   borderStyle
 }) => {
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
   return (
     <div
       className={`header-top-wap ${
@@ -29,7 +25,7 @@ const HeaderTop = ({
         dispatch={dispatch}
       />
       <div className="header-offer">
-        <p style ={styles}>
+        <p>
           Free delivery on order over{" "}
           <span>
             {currency.currencySymbol + (200 * currency.currencyRate).toFixed(2)}

@@ -32,7 +32,6 @@ const FooterTwo = ({
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
-
   return (
     <footer
       className={`footer-area ${
@@ -111,7 +110,15 @@ const FooterTwo = ({
             }`}
           >
             <p>
-              © 2021 All Rights Reserved.
+              © 2020{" "}
+              <a
+                href="//www.hasthemes.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Flone
+              </a>
+              . All Rights Reserved.
             </p>
           </div>
         </div>

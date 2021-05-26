@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-51.png",
+    "image": "http://placeimg.com/600/800/any?901",
     "title": "-70% Off",
     "subtitle": "Easy Chair",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-52.png",
+    "image": "http://placeimg.com/600/800/any?902",
     "title": "-70% Off",
     "subtitle": "Soft Sofa",
     "url": "/shop-grid-standard"
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner-53.png",
+    "image": "http://placeimg.com/600/800/any?903",
     "title": "-70% Off",
     "subtitle": "Office Chair",
     "url": "/shop-grid-standard"

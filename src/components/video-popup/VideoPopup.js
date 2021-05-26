@@ -13,7 +13,7 @@ const VideoPopup = ({ spaceBottomClass }) => {
             <div className="video-popup__image">
               <img
                 src={
-                  process.env.PUBLIC_URL + "/assets/img/banner/banner-41.jpg"
+                  process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?859"
                 }
                 alt=""
                 className="img-fluid"

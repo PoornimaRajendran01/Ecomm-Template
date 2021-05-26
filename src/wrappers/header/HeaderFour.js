@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import NavMenu from "../../components/header/NavMenu";
 import IconGroup from "../../components/header/IconGroup";
 import MobileMenu from "../../components/header/MobileMenu";
-import {getConfig} from "../../helpers/ls"
 
 const HeaderFour = () => {
   const [scroll, setScroll] = useState(0);
@@ -17,7 +16,6 @@ const HeaderFour = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  const config = getConfig();
 
   const handleScroll = () => {
     setScroll(window.scrollY);
@@ -38,8 +36,7 @@ const HeaderFour = () => {
           <div className="col-xl-2 col-lg-2 col-md-6 col-4">
             <div className="logo text-center logo-hm5">
               <Link className="sticky-none" to={process.env.PUBLIC_URL + "/"}>
-              {config.name}
-                {/* <img alt="" src="assets/img/logo/logo-2.png" /> */}
+                <img alt="" src="assets/img/logo/logo-2.png" />
               </Link>
               <Link className="sticky-block" to={process.env.PUBLIC_URL + "/"}>
                 <img alt="" src="assets/img/logo/logo.png" />

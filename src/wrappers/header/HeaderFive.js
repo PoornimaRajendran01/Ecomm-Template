@@ -5,22 +5,26 @@ import MobileMenu from "../../components/header/MobileMenu";
 import NavMenu from "../../components/header/NavMenu";
 
 const HeaderFive = () => {
-  const config=JSON.parse(localStorage.getItem('config'));
-  const textColor= {
-    color: config.theme.color
-  }
   return (
     <div>
       <div className="home-sidebar-left">
         {/* header logo */}
-        {/* <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" /> */}
+        <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
         {/* Icon group */}
         <IconGroup />
         {/* sidebar nav menu */}
         <NavMenu sidebarMenu={true} />
         <div className="sidebar-copyright">
-          <p style={textColor}>
-            ©2021 All Rights Reserved.
+          <p>
+            ©2020{" "}
+            <a
+              href="//www.hasthemes.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Flone
+            </a>
+            .All Rights Reserved.
           </p>
         </div>
       </div>

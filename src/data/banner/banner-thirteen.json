@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner9.jpg",
+    "image": "http://placeimg.com/600/800/any?894",
     "title": "Featured Products",
     "subtitle": "Choose Your Products Here",
     "link": "/shop-grid-standard",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner10.jpg",
+    "image": "http://placeimg.com/600/800/any?895",
     "title": "New Products",
     "subtitle": "Choose Your Products Here",
     "link": "/shop-grid-standard",

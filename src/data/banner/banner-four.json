@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-13.png",
+    "image": "http://placeimg.com/600/800/any?873",
     "title": "Peepal",
     "subtitle": "Starting at",
     "price": "$99.00",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-14.png",
+    "image": "http://placeimg.com/600/800/any?874",
     "title": "Banyan",
     "subtitle": "Starting at",
     "price": "$79.00",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner-15.png",
+    "image": "http://placeimg.com/600/800/any?875",
     "title": "Aloe Vera",
     "subtitle": "Starting at",
     "price": "$29.00",

@@ -1,35 +1,35 @@
 [
   {
     "id": "1",
-    "image": "/assets/img/product/hm8-pro-1.jpg",
+    "image": "http://placeimg.com/600/800/any?955",
     "subtitle": "2 Products",
     "title": "Living Room",
     "link": "/shop-grid-standard"
   },
   {
     "id": "2",
-    "image": "/assets/img/product/hm8-pro-2.jpg",
+    "image": "http://placeimg.com/600/800/any?956",
     "subtitle": "3 Products",
     "title": "Drawing Room",
     "link": "/shop-grid-standard"
   },
   {
     "id": "3",
-    "image": "/assets/img/product/hm8-pro-3.jpg",
+    "image": "http://placeimg.com/600/800/any?957",
     "subtitle": "6 Products",
     "title": "Dining Room",
     "link": "/shop-grid-standard"
   },
   {
     "id": "4",
-    "image": "/assets/img/product/hm8-pro-4.jpg",
+    "image": "http://placeimg.com/600/800/any?958",
     "subtitle": "5 Products",
     "title": "Drawing Room",
     "link": "/shop-grid-standard"
   },
   {
     "id": "5",
-    "image": "/assets/img/product/hm8-pro-2.jpg",
+    "image": "http://placeimg.com/600/800/any?959",
     "subtitle": "3 Products",
     "title": "Living Room",
     "link": "/shop-grid-standard"

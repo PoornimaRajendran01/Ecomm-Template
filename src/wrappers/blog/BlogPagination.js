@@ -1,12 +1,8 @@
 import React from "react";
 
 const BlogPagination = () => {
-  const config=JSON.parse(localStorage.getItem('config'));
-    const color = {
-      background: config.theme.color
-    }
   return (
-    <div className="pro-pagination-style text-center mt-20" style={color}>
+    <div className="pro-pagination-style text-center mt-20">
       <ul>
         <li>
           <button className="prev">

@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner6.jpg",
+    "image": "http://placeimg.com/600/800/any?911",
     "title": "Headphones",
     "subtitle": "Choose Your Products Here",
     "link": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner7.jpg",
+    "image": "http://placeimg.com/600/800/any?912",
     "title": "Accessories",
     "subtitle": "Choose Your Products Here",
     "link": "/shop-grid-standard"
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner8.jpg",
+    "image": "http://placeimg.com/600/800/any?913",
     "title": "Robotics",
     "subtitle": "Choose Your Products Here",
     "link": "/shop-grid-standard"

@@ -1,18 +1,16 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { Link } from "react-router-dom";
-import {getConfig} from "../../helpers/ls"
+import { useInitConfig } from "../../data/configuration/utils";
 
 const Logo = ({ imageUrl, logoClass }) => {
-  const config = getConfig();
-  const styles = {
-    color: config.theme.color
-  }
+  const initConfig = useInitConfig();
+
+  const activeConfig = initConfig.find(el => el.isActive);
   return (
-    <div className={`${logoClass ? logoClass : ""}`} >
-      <Link to={process.env.PUBLIC_URL + "/"} style={styles}>
-        {config.name}
-        {/* <img alt="" src={process.env.PUBLIC_URL + imageUrl} /> */}
+    <div className={`${logoClass ? logoClass : ""}`}>
+      <Link to={process.env.PUBLIC_URL + "/"}>
+        <h4>{activeConfig.name}</h4>
       </Link>
     </div>
   );

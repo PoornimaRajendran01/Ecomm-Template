@@ -17,15 +17,11 @@ const LanguageCurrencyChanger = ({
     const currencyName = e.target.value;
     setCurrency(currencyName);
   };
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
 
   return (
     <div className="language-currency-wrap">
-      <div className="same-language-currency language-style" >
-        <span style ={styles}>
+      <div className="same-language-currency language-style">
+        <span>
           {currentLanguageCode === "en"
             ? "English"
             : currentLanguageCode === "fn"
@@ -34,7 +30,7 @@ const LanguageCurrencyChanger = ({
             ? "Germany"
             : ""}{" "}
           <i className="fa fa-angle-down" />
-        </span >
+        </span>
         <div className="lang-car-dropdown">
           <ul>
             <li>
@@ -56,7 +52,7 @@ const LanguageCurrencyChanger = ({
         </div>
       </div>
       <div className="same-language-currency use-style">
-        <span style ={styles}>
+        <span>
           {currency.currencyName} <i className="fa fa-angle-down" />
         </span>
         <div className="lang-car-dropdown">
@@ -80,7 +76,7 @@ const LanguageCurrencyChanger = ({
         </div>
       </div>
       <div className="same-language-currency">
-        <p style ={styles}>Call Us 3965410</p>
+        <p>Call Us 3965410</p>
       </div>
     </div>
   );

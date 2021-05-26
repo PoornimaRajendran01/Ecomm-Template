@@ -12,7 +12,7 @@ const VideoPopupTwo = ({ spaceBottomClass }) => {
         className="video-popup-2__left bg-img"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "/assets/img/bg/bg-7.jpg"
+            process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?860"
           })`
         }}
       >
@@ -36,7 +36,7 @@ const VideoPopupTwo = ({ spaceBottomClass }) => {
         <div className="video-popup-2__button">
           <button onClick={() => isOpen(true)}>
             <img
-              src={process.env.PUBLIC_URL + "/assets/img/icon-img/play.png"}
+              src={process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?861"}
               alt=""
             />
           </button>
@@ -46,7 +46,7 @@ const VideoPopupTwo = ({ spaceBottomClass }) => {
         className="video-popup-2__right bg-img"
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + "/assets/img/bg/bg-8.jpg"
+            process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?862"
           })`
         }}
       ></div>

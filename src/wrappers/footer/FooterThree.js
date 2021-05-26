@@ -28,7 +28,7 @@ const FooterThree = ({
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
- 
+
   return (
     <footer
       className={`footer-area ${

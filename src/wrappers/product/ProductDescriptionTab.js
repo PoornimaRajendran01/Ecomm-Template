@@ -4,10 +4,6 @@ import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 
 const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
   return (
     <div className={`description-review-area ${spaceBottomClass}`}>
       <div className="container">
@@ -15,15 +11,15 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
           <Tab.Container defaultActiveKey="productDescription">
             <Nav variant="pills" className="description-review-topbar">
               <Nav.Item>
-                <Nav.Link eventKey="additionalInfo" style={styles}>
+                <Nav.Link eventKey="additionalInfo">
                   Additional Information
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="productDescription" style={styles}>Description</Nav.Link>
+                <Nav.Link eventKey="productDescription">Description</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="productReviews" style={styles}>Reviews(2)</Nav.Link>
+                <Nav.Link eventKey="productReviews">Reviews(2)</Nav.Link>
               </Nav.Item>
             </Nav>
             <Tab.Content className="description-review-bottom">

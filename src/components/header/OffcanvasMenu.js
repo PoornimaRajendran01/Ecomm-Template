@@ -5,13 +5,8 @@ import HeaderSocial from "./sub-components/HeaderSocial";
 import NavMenu from "./NavMenu";
 
 const OffcanvasMenu = ({ activeState, getActiveState }) => {
-  const config=JSON.parse(localStorage.getItem('config'));
-
-  const background = {
-    background: config.theme.backgroundcolor
-  }
   return (
-    <div className={`clickable-mainmenu ${activeState ? "inside" : ""}`} style={background}>
+    <div className={`clickable-mainmenu ${activeState ? "inside" : ""}`}>
       <div className="clickable-mainmenu-icon">
         <button
           className="clickable-mainmenu-close"
@@ -22,11 +17,10 @@ const OffcanvasMenu = ({ activeState, getActiveState }) => {
       </div>
       <div className="side-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <div>{config.name}</div>
-          {/* <img
+          <img
             alt=""
             src={process.env.PUBLIC_URL + "/assets/img/logo/logo.png"}
-          /> */}
+          />
         </Link>
       </div>
       {/* nav menu*/}

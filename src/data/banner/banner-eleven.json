@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-4.jpg",
+    "image": "http://placeimg.com/600/800/any?869",
     "title": "Men Fashion Shop",
     "subtitle": "Choose Your Products Here",
     "link": "/shop-grid-standard",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-5.jpg",
+    "image": "http://placeimg.com/600/800/any?870",
     "title": "Women Fashion Shop",
     "subtitle": "Choose Your Products Here",
     "link": "/shop-grid-standard",

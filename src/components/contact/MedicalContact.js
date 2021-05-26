@@ -6,7 +6,7 @@ const MedicalContact = () => {
       className="medical-contact-area bg-img"
       style={{
         backgroundImage: `url(${
-          process.env.PUBLIC_URL + "/assets/img/bg/medicine-bg.jpg"
+          process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?856"
         })`
       }}
     >
@@ -25,7 +25,7 @@ const MedicalContact = () => {
                   <img
                     src={
                       process.env.PUBLIC_URL +
-                      "/assets/img/icon-img/medical-contact-shape.png"
+                      "http://placeimg.com/600/800/any?857"
                     }
                     alt=""
                   />
@@ -37,7 +37,7 @@ const MedicalContact = () => {
                     <img
                       src={
                         process.env.PUBLIC_URL +
-                        "/assets/img/icon-img/medical-contact.png"
+                        "http://placeimg.com/600/800/any?858"
                       }
                       alt=""
                     />

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "http://placeimg.com/373/215/any",
+    "image": "http://placeimg.com/600/800/any?890",
     "title": "Watches",
     "subtitle": "Starting at",
     "price": "$99.00",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "https://placebear.com/373/215",
+    "image": "http://placeimg.com/600/800/any?891",
     "title": "Plo Bag",
     "subtitle": "Starting at",
     "price": "$79.00",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "https://picsum.photos/373/215",
+    "image": "http://placeimg.com/600/800/any?892",
     "title": "Sunglass",
     "subtitle": "Starting at",
     "price": "$29.00",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "image": "http://placeimg.com/373/215/any",
+    "image": "http://placeimg.com/600/800/any?893",
     "title": "Sun Hat",
     "subtitle": "Starting at",
     "price": "$12.00",

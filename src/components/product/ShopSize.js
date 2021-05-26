@@ -3,22 +3,15 @@ import React from "react";
 import { setActiveSort } from "../../helpers/product";
 
 const ShopSize = ({ sizes, getSortParams }) => {
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.categoryColor
-  }
-  const color = {
-    color: config.theme.color
-  }
   return (
     <div className="sidebar-widget mt-40">
-      <h4 className="pro-sidebar-title" style={styles}>Size </h4>
+      <h4 className="pro-sidebar-title">Size </h4>
       <div className="sidebar-widget-list mt-20">
         {sizes ? (
           <ul>
             <li>
               <div className="sidebar-widget-list-left">
-                <button style={color}
+                <button
                   onClick={e => {
                     getSortParams("size", "");
                     setActiveSort(e);
@@ -32,7 +25,7 @@ const ShopSize = ({ sizes, getSortParams }) => {
               return (
                 <li key={key}>
                   <div className="sidebar-widget-list-left">
-                    <button style={color}
+                    <button
                       className="text-uppercase"
                       onClick={e => {
                         getSortParams("size", size);

@@ -39,14 +39,10 @@ const ProductDescriptionInfo = ({
     selectedProductColor,
     selectedProductSize
   );
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
 
   return (
-    <div className="product-details-content ml-70" >
-      <h2 style={styles}>{product.name}</h2>
+    <div className="product-details-content ml-70">
+      <h2>{product.name}</h2>
       <div className="product-details-price">
         {discountedPrice !== null ? (
           <Fragment>
@@ -69,7 +65,7 @@ const ProductDescriptionInfo = ({
         ""
       )}
       <div className="pro-details-list">
-        <p style={styles}>{product.shortDescription}</p>
+        <p>{product.shortDescription}</p>
       </div>
 
       {product.variation ? (

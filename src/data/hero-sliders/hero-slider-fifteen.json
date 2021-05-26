@@ -3,14 +3,14 @@
     "id": 1,
     "title": "Enjoy This Offer Today",
     "subtitle": "New Collection <br>Sale 40%",
-    "image": "/assets/img/slider/slider-12.jpg",
+    "image": "http://placeimg.com/600/800/any?992",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
     "title": "Enjoy This Offer Today",
     "subtitle": "New Collection <br>Sale 20%",
-    "image": "/assets/img/slider/slider-12-2.jpg",
+    "image": "http://placeimg.com/600/800/any?993",
     "url": "/shop-grid-standard"
   }
 ]

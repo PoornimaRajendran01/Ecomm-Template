@@ -33,7 +33,6 @@ const FooterFour = ({
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
-  
 
   return (
     <footer

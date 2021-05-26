@@ -10,10 +10,6 @@ const ShopTopActionFilter = ({
   products,
   getSortParams
 }) => {
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
   return (
     <Fragment>
       <div className="shop-top-bar mb-35">
@@ -33,7 +29,7 @@ const ShopTopActionFilter = ({
         </div>
 
         <div className="filter-active">
-          <button style={styles} onClick={e => toggleShopTopFilter(e)}>
+          <button onClick={e => toggleShopTopFilter(e)}>
             <i className="fa fa-plus"></i> filter
           </button>
         </div>

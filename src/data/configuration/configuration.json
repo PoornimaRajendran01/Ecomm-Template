@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Taylor Road",
+    "variations": {
+      "home": 1,
+      "shop": 1,
+      "product": 1,
+      "blog": 1
+    },
+    "font": 3,
+    "fontUrl": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap",
+    "fontName": "Poppins",
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "name": "Ocuco Team",
+    "variations": {
+      "home": 3,
+      "shop": 5,
+      "product": 2,
+      "blog": 3
+    },
+    "font": 1,
+    "fontUrl": "https://fonts.googleapis.com/css2?family=$Roboto:wght@300;400;600;700&display=swap",
+    "fontName": "Roboto",
+    "isActive": false
+  }
+]

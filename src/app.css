@@ -1,0 +1,11 @@
+.admin-link {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    padding: 0 5px;
+    font-size: 10px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    z-index: 1000;
+}

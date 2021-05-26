@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-43.jpg",
+    "image": "http://placeimg.com/600/800/any?943",
     "title": "Wooden Chair (06)",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-44.jpg",
+    "image": "http://placeimg.com/600/800/any?944",
     "title": "Sofa Collection (10)",
     "url": "/shop-grid-standard"
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner-45.jpg",
+    "image": "http://placeimg.com/600/800/any?945",
     "title": "Wooden Bed (06)",
     "url": "/shop-grid-standard"
   }

@@ -1,12 +1,12 @@
 [
   {
     "id": "1",
-    "image": "/assets/img/banner/banner32.jpg",
+    "image": "http://placeimg.com/600/800/any?926",
     "link": "/shop-grid-standard"
   },
   {
     "id": "2",
-    "image": "/assets/img/banner/banner33.jpg",
+    "image": "http://placeimg.com/600/800/any?927",
     "link": "/shop-grid-standard"
   }
 ]

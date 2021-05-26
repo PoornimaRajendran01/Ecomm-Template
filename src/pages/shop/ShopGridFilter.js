@@ -5,16 +5,12 @@ import Paginator from 'react-hooks-paginator';
 import { BreadcrumbsItem } from 'react-breadcrumbs-dynamic';
 import { connect } from 'react-redux';
 import { getSortedProducts } from '../../helpers/product';
-import LayoutSix from '../../layouts/LayoutSix';
+import LayoutOne from '../../layouts/LayoutOne';
 import Breadcrumb from '../../wrappers/breadcrumb/Breadcrumb';
 import ShopTopbarFilter from '../../wrappers/product/ShopTopbarFilter';
 import ShopProducts from '../../wrappers/product/ShopProducts';
 
 const ShopGridFilter = ({location, products}) => {
-    const config=JSON.parse(localStorage.getItem('config'));
-    const color = {
-      background: config.theme.color
-    }
     const [layout, setLayout] = useState('grid three-column');
     const [sortType, setSortType] = useState('');
     const [sortValue, setSortValue] = useState('');
@@ -60,7 +56,7 @@ const ShopGridFilter = ({location, products}) => {
             <BreadcrumbsItem to={process.env.PUBLIC_URL + '/'}>Home</BreadcrumbsItem>
             <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>Shop</BreadcrumbsItem>
 
-            <LayoutSix headerTop="visible">
+            <LayoutOne headerTop="visible">
                 {/* breadcrumb */}
                 <Breadcrumb />
 
@@ -75,7 +71,7 @@ const ShopGridFilter = ({location, products}) => {
                                 <ShopProducts layout={layout} products={currentData} />
 
                                 {/* shop product pagination */}
-                                <div className="pro-pagination-style text-center mt-30" style={color}>
+                                <div className="pro-pagination-style text-center mt-30">
                                     <Paginator
                                         totalRecords={sortedProducts.length}
                                         pageLimit={pageLimit}
@@ -92,7 +88,7 @@ const ShopGridFilter = ({location, products}) => {
                         </div>
                     </div>
                 </div>
-            </LayoutSix>
+            </LayoutOne>
         </Fragment>
     )
 }

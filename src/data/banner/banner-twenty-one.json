@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner29.jpg",
+    "image": "http://placeimg.com/600/800/any?920",
     "title": "Dog Food",
     "subtitle": "Starting at",
     "price": "$99.00",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner30.jpg",
+    "image": "http://placeimg.com/600/800/any?921",
     "title": "Fish Food",
     "subtitle": "Starting at",
     "price": "$79.00",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner31.jpg",
+    "image": "http://placeimg.com/600/800/any?922",
     "title": "Cat Food",
     "subtitle": "Starting at",
     "price": "$29.00",

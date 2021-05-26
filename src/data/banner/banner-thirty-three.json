@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-54.png",
+    "image": "http://placeimg.com/600/800/any?904",
     "title": "Single Sofa",
     "subtitle": "Starting at",
     "price": "$99.00",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-55.png",
+    "image": "http://placeimg.com/600/800/any?905",
     "title": "Single Sofa",
     "subtitle": "Starting at",
     "price": "$79.00",

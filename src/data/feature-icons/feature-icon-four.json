@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "titleImage": "/assets/img/icon-img/support-8.png",
+    "titleImage": "http://placeimg.com/600/800/any?965",
     "title": "Free shipping on all order",
-    "iconImage": "/assets/img/icon-img/support-5.png",
+    "iconImage": "http://placeimg.com/600/800/any?968",
     "backgroundColor": "#ccfbe9"
   },
   {
     "id": 2,
-    "titleImage": "/assets/img/icon-img/support-9.png",
+    "titleImage": "http://placeimg.com/600/800/any?966",
     "title": "Back guarantee under 5 days",
-    "iconImage": "/assets/img/icon-img/support-6.png",
+    "iconImage": "http://placeimg.com/600/800/any?969",
     "backgroundColor": "#f2fbcc"
   },
   {
     "id": 3,
-    "titleImage": "/assets/img/icon-img/support-10.png",
+    "titleImage": "http://placeimg.com/600/800/any?967",
     "title": "On every order over $150",
-    "iconImage": "/assets/img/icon-img/support-7.png",
+    "iconImage": "http://placeimg.com/600/800/any?970",
     "backgroundColor": "#ddfbcc"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-38.png",
+    "image": "http://placeimg.com/600/800/any?864",
     "title": "Book",
     "subtitle": "Starting at",
     "price": "$99.00",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-39.png",
+    "image": "http://placeimg.com/600/800/any?865",
     "title": "Book",
     "subtitle": "Starting at",
     "price": "$79.00",

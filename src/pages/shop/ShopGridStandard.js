@@ -12,11 +12,6 @@ import ShopTopbar from '../../wrappers/product/ShopTopbar';
 import ShopProducts from '../../wrappers/product/ShopProducts';
 
 const ShopGridStandard = ({location, products}) => {
-    const config=JSON.parse(localStorage.getItem('config'));
-    const color = {
-      background: config.theme.color,color: config.theme.categorycolor
-    }
-  
     const [layout, setLayout] = useState('grid three-column');
     const [sortType, setSortType] = useState('');
     const [sortValue, setSortValue] = useState('');
@@ -81,8 +76,8 @@ const ShopGridStandard = ({location, products}) => {
                                 <ShopProducts layout={layout} products={currentData} />
 
                                 {/* shop product pagination */}
-                                <div className="pro-pagination-style text-center mt-30" >
-                                    <Paginator style={color} 
+                                <div className="pro-pagination-style text-center mt-30">
+                                    <Paginator
                                         totalRecords={sortedProducts.length}
                                         pageLimit={pageLimit}
                                         pageNeighbours={2}

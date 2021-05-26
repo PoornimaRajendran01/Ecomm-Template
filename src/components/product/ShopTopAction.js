@@ -8,10 +8,6 @@ const ShopTopAction = ({
   productCount,
   sortedProductCount
 }) => {
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
   return (
     <div className="shop-top-bar mb-35">
       <div className="select-shoing-wrap">
@@ -24,7 +20,7 @@ const ShopTopAction = ({
             <option value="priceLowToHigh">Price - Low to High</option>
           </select>
         </div>
-        <p style={styles}>
+        <p>
           Showing {sortedProductCount} of {productCount} result
         </p>
       </div>

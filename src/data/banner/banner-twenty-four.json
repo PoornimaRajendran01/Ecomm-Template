@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-38.png",
+    "image": "http://placeimg.com/600/800/any?917",
     "title": "Historical",
     "subtitle": "Starting at",
     "price": "$99.00",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-39.png",
+    "image": "http://placeimg.com/600/800/any?918",
     "title": "Magazine",
     "subtitle": "Starting at",
     "price": "$79.00",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner-36.jpg",
+    "image": "http://placeimg.com/600/800/any?919",
     "title": "Bestseller",
     "subtitle": "Starting at",
     "price": "$29.00",

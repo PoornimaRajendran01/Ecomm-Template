@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-35.png",
+    "image": "http://placeimg.com/600/800/any?883",
     "title": "Flower",
     "subtitle": "Starting at",
     "price": "$99.00",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-36.png",
+    "image": "http://placeimg.com/600/800/any?884",
     "title": "Flower",
     "subtitle": "Starting at",
     "price": "$79.00",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner-37.png",
+    "image": "http://placeimg.com/600/800/any?885",
     "title": "Flower",
     "subtitle": "Starting at",
     "price": "$29.00",

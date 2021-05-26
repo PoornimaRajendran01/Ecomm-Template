@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner27.jpg",
+    "image": "http://placeimg.com/600/800/any?928",
     "title": "Cup cakes",
     "subtitle": "Choose Your Products Here",
     "link": "/shop-grid-standard",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner28.jpg",
+    "image": "http://placeimg.com/600/800/any?929",
     "title": "Vanilla cakes",
     "subtitle": "Choose Your Products Here",
     "link": "/shop-grid-standard",

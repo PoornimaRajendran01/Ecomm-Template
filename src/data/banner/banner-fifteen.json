@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner14.jpg",
+    "image": "http://placeimg.com/600/800/any?871",
     "title": "New Arrivals",
     "subtitle": "Choose your products here",
     "link": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner15.jpg",
+    "image": "http://placeimg.com/600/800/any?872",
     "title": "Featured Products",
     "subtitle": "Choose your products here",
     "link": "/shop-grid-standard"
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner16.jpg",
+    "image": "http://placeimg.com/600/800/any?873",
     "title": "Best Seller",
     "subtitle": "Choose your products here",
     "link": "/shop-grid-standard"

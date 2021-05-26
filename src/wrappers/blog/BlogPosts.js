@@ -8,7 +8,7 @@ const BlogPosts = () => {
           <div className="blog-img-2">
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
-                src={process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?181"}
+                src={process.env.PUBLIC_URL + "/assets/img/blog/blog-9.jpg"}
                 alt=""
               />
             </Link>
@@ -70,7 +70,7 @@ const BlogPosts = () => {
           <div className="blog-img-2">
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
-                src={process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?182"}
+                src={process.env.PUBLIC_URL + "/assets/img/blog/blog-8.jpg"}
                 alt=""
               />
             </Link>
@@ -132,7 +132,7 @@ const BlogPosts = () => {
           <div className="blog-img-2">
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
-                src={process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?183"}
+                src={process.env.PUBLIC_URL + "/assets/img/blog/blog-7.jpg"}
                 alt=""
               />
             </Link>
@@ -194,7 +194,7 @@ const BlogPosts = () => {
           <div className="blog-img-2">
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
-                src={process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?184"}
+                src={process.env.PUBLIC_URL + "/assets/img/blog/blog-6.jpg"}
                 alt=""
               />
             </Link>
@@ -256,7 +256,7 @@ const BlogPosts = () => {
           <div className="blog-img-2">
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
-                src={process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?185"}
+                src={process.env.PUBLIC_URL + "/assets/img/blog/blog-5.jpg"}
                 alt=""
               />
             </Link>
@@ -318,7 +318,7 @@ const BlogPosts = () => {
           <div className="blog-img-2">
             <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
               <img
-                src={process.env.PUBLIC_URL + "http://placeimg.com/600/800/any?186"}
+                src={process.env.PUBLIC_URL + "/assets/img/blog/blog-4.jpg"}
                 alt=""
               />
             </Link>

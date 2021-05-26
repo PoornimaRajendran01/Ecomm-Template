@@ -3,14 +3,14 @@
     "id": 1,
     "title": "Sale Off 40%",
     "subtitle": "Summer Offer <br>2020 Collection",
-    "image": "http://placeimg.com/1920/750/any",
+    "image": "http://placeimg.com/600/800/any?983",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
     "title": "Sale Off 20%",
     "subtitle": "Summer Offer <br>2020 Collection",
-    "image": "/assets/img/slider/slider-1.jpg",
+    "image": "http://placeimg.com/600/800/any?984",
     "url": "/shop-grid-standard"
   }
 ]

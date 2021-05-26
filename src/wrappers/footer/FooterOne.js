@@ -196,7 +196,7 @@ const FooterOne = ({
           </div>
         </div>
       </div>
-      <button 
+      <button
         className={`scroll-top ${scroll > top ? "show" : ""}`}
         onClick={() => scrollToTop()}
       >

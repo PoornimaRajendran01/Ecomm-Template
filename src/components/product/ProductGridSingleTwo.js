@@ -27,10 +27,6 @@ const ProductGridSingleTwo = ({
   const finalDiscountedPrice = +(
     discountedPrice * currency.currencyRate
   ).toFixed(2);
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
 
   return (
     <Fragment>
@@ -139,22 +135,22 @@ const ProductGridSingleTwo = ({
               }`}
             >
               <h3>
-                <Link style={styles} to={process.env.PUBLIC_URL + "/product/" + product.id}>
+                <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
                   {product.name}
                 </Link>
               </h3>
               <div className="price-2">
                 {discountedPrice !== null ? (
                   <Fragment>
-                    <span style={styles}>
+                    <span>
                       {currency.currencySymbol + finalDiscountedPrice}
                     </span>{" "}
-                    <span  className="old">
+                    <span className="old">
                       {currency.currencySymbol + finalProductPrice}
                     </span>
                   </Fragment>
                 ) : (
-                  <span style={styles}>{currency.currencySymbol + finalProductPrice} </span>
+                  <span>{currency.currencySymbol + finalProductPrice} </span>
                 )}
               </div>
             </div>

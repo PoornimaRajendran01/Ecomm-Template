@@ -38,7 +38,7 @@ const HomeFashionSeven = () => {
           spaceTopClass="pt-100"
           spaceBottomClass="pb-100"
           dateTime="November 13, 2020 12:12:00"
-          countDownImage="/assets/img/banner/deal-2.png"
+          countDownImage="http://placeimg.com/600/800/any?1012"
         />
         {/* feature icon */}
         <FeatureIconFour

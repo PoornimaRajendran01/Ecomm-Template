@@ -18,10 +18,6 @@ const ProductGridListSingle = ({
   sliderClassName,
   spaceBottomClass
 }) => {
-  const config=JSON.parse(localStorage.getItem('config'));
-  const color = {
-    color: config.theme.color
-  }
   const [modalShow, setModalShow] = useState(false);
   const { addToast } = useToasts();
 
@@ -134,7 +130,7 @@ const ProductGridListSingle = ({
           </div>
           <div className="product-content text-center">
             <h3>
-              <Link style={color} to={process.env.PUBLIC_URL + "/product/" + product.id}>
+              <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
                 {product.name}
               </Link>
             </h3>
@@ -145,16 +141,16 @@ const ProductGridListSingle = ({
             ) : (
               ""
             )}
-            <div className="product-price" >
+            <div className="product-price">
               {discountedPrice !== null ? (
                 <Fragment>
-                  <span style={color}>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
-                  <span style={color} className="old">
+                  <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
+                  <span className="old">
                     {currency.currencySymbol + finalProductPrice}
                   </span>
                 </Fragment>
               ) : (
-                <span style={color}>{currency.currencySymbol + finalProductPrice} </span>
+                <span>{currency.currencySymbol + finalProductPrice} </span>
               )}
             </div>
           </div>
@@ -198,7 +194,7 @@ const ProductGridListSingle = ({
             <div className="col-xl-8 col-md-7 col-sm-6">
               <div className="shop-list-content">
                 <h3>
-                  <Link style={color} to={process.env.PUBLIC_URL + "/product/" + product.id}>
+                  <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
                     {product.name}
                   </Link>
                 </h3>

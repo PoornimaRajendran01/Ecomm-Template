@@ -7,11 +7,6 @@ const SectionTitleTwo = ({
   positionClass,
   spaceClass
 }) => {
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
-
   return (
     <div
       className={`section-title-2 ${positionClass ? positionClass : ""} ${
@@ -19,7 +14,7 @@ const SectionTitleTwo = ({
       }`}
     >
       <h2>{titleText}</h2>
-      <p style={styles}>{subTitleText}</p>
+      <p>{subTitleText}</p>
     </div>
   );
 };

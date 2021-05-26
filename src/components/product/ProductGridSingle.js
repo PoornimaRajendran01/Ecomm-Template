@@ -18,10 +18,6 @@ const ProductGridSingle = ({
   sliderClassName,
   spaceBottomClass
 }) => {
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
   const [modalShow, setModalShow] = useState(false);
   const { addToast } = useToasts();
 
@@ -134,7 +130,7 @@ const ProductGridSingle = ({
           </div>
           <div className="product-content text-center">
             <h3>
-              <Link  style={styles} to={process.env.PUBLIC_URL + "/product/" + product.id}>
+              <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
                 {product.name}
               </Link>
             </h3>
@@ -148,13 +144,13 @@ const ProductGridSingle = ({
             <div className="product-price">
               {discountedPrice !== null ? (
                 <Fragment>
-                  <span style={styles}>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
-                  <span style={styles} className="old">
+                  <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
+                  <span className="old">
                     {currency.currencySymbol + finalProductPrice}
                   </span>
                 </Fragment>
               ) : (
-                <span style={styles}>{currency.currencySymbol + finalProductPrice} </span>
+                <span>{currency.currencySymbol + finalProductPrice} </span>
               )}
             </div>
           </div>

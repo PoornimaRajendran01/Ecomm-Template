@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-8.png",
+    "image": "http://placeimg.com/600/800/any?909",
     "title": "HeadPhone",
     "subtitle": "Starting at",
     "price": "$99.00",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-9.png",
+    "image": "http://placeimg.com/600/800/any?910",
     "title": "Bluetooth",
     "subtitle": "Starting at",
     "price": "$79.00",

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-16.png",
+    "image": "http://placeimg.com/600/800/any?878",
     "title": "Eye Lashes",
     "subtitle": "Starting at",
     "price": "$9.00",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-17.png",
+    "image": "http://placeimg.com/600/800/any?879",
     "title": "Anti-Wrinkles",
     "subtitle": "Starting at",
     "price": "$7.00",

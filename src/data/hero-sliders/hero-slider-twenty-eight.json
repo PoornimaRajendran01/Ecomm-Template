@@ -3,14 +3,14 @@
     "id": 1,
     "title": "Best Products Collection",
     "subtitle": "Final Sale For <br /> 2020",
-    "image": "/assets/img/slider/slider-30.jpg",
+    "image": "http://placeimg.com/600/800/any?994",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
     "title": "Best Products Collection",
     "subtitle": "Final Sale For <br /> 2020",
-    "image": "/assets/img/slider/slider-30.jpg",
+    "image": "http://placeimg.com/600/800/any?995",
     "url": "/shop-grid-standard"
   }
 ]

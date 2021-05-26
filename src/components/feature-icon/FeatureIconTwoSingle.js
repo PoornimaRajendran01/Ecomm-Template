@@ -2,10 +2,6 @@ import PropTypes from "prop-types";
 import React from "react";
 
 const FeatureIconTwoSingle = ({ data, spaceBottomClass, textAlignClass }) => {
-  const config=JSON.parse(localStorage.getItem('config'));
-  const styles = {
-    color: config.theme.color
-  }
   return (
     <div className="col-md-4">
       <div
@@ -19,8 +15,8 @@ const FeatureIconTwoSingle = ({ data, spaceBottomClass, textAlignClass }) => {
             src={process.env.PUBLIC_URL + data.image}
             alt=""
           />
-          <h5 style={styles}>{data.title}</h5>
-          <p style={styles}>{data.subtitle}</p>
+          <h5>{data.title}</h5>
+          <p>{data.subtitle}</p>
         </div>
       </div>
     </div>

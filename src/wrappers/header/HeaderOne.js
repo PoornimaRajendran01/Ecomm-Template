@@ -29,10 +29,6 @@ const HeaderOne = ({
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
-  const config=JSON.parse(localStorage.getItem('config'));
-  const background = {
-    background: config.theme.backgroundcolor
-  }
 
   return (
     <header
@@ -40,14 +36,14 @@ const HeaderOne = ({
         headerPositionClass ? headerPositionClass : ""
       }`}
     >
-      <div  
+      <div
         className={`${headerPaddingClass ? headerPaddingClass : ""} ${
           top === "visible" ? "d-none d-lg-block" : "d-none"
         } header-top-area ${
           borderStyle === "fluid-border" ? "border-none" : ""
         }`}
       >
-        <div  className={layout === "container-fluid" ? layout : "container"}>
+        <div className={layout === "container-fluid" ? layout : "container"}>
           {/* header top */}
           <HeaderTop borderStyle={borderStyle} />
         </div>
@@ -58,9 +54,9 @@ const HeaderOne = ({
           headerPaddingClass ? headerPaddingClass : ""
         } sticky-bar header-res-padding clearfix ${
           scroll > headerTop ? "stick" : ""
-        }`} style={background}
+        }`}
       >
-        <div  className={layout === "container-fluid" ? layout : "container"}>
+        <div className={layout === "container-fluid" ? layout : "container"}>
           <div className="row">
             <div className="col-xl-2 col-lg-2 col-md-6 col-4">
               {/* header logo */}

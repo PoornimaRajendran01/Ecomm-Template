@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-40.png",
+    "image": "http://placeimg.com/600/800/any?914",
     "title": "Covid - 19",
     "subtitle": "Medicine <br>& Equipment",
     "text": "20% OFF",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-41.png",
+    "image": "http://placeimg.com/600/800/any?915",
     "title": "Covid - 19",
     "subtitle": "Medix Mask <br>& Sanitizer",
     "text": "30% OFF",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner-42.png",
+    "image": "http://placeimg.com/600/800/any?916",
     "title": "Covid - 19",
     "subtitle": "Hand Gloves <br>& Sanitizer",
     "text": "40% OFF",
