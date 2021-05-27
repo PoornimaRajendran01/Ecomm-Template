@@ -200,7 +200,9 @@ export const ControlPanel = ({ location }) => {
 							</div>
 						</div>
 						<div>
-							<button className="btn btn-secondary" onClick={()=>window.location.reload(true)}>Activate configuration on
+							<button className="btn btn-secondary" onClick={()=>setTimeout(function(){
+  window.location.reload();
+},3000)}>Activate configuration on
 								site
 							</button>
 						</div>
