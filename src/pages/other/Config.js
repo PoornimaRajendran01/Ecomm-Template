@@ -99,10 +99,7 @@ export const ControlPanel = ({ location }) => {
 		setConfig(newConfig);
 		localStorage.setItem('config', JSON.stringify(newConfig));
 	}
-	const refresh= ()=>{
-		localStorage.getItem('config');
-		setConfig(newConfig);
-	}
+
 
 	return (
 		<Fragment>
@@ -204,7 +201,7 @@ export const ControlPanel = ({ location }) => {
 							</div>
 						</div>
 						<div>
-							<button className="btn btn-secondary" onClick={()=>window.XM}>Activate configuration on
+							<button className="btn btn-secondary" onClick={()=>window.location.reload()}>Activate configuration on
 								site
 							</button>
 						</div>
