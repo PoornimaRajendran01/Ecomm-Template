@@ -200,9 +200,7 @@ export const ControlPanel = ({ location }) => {
 							</div>
 						</div>
 						<div>
-							<button className="btn btn-secondary" onClick={()=>setTimeout(function(){
-  window.location.reload();
-},3000)}>Activate configuration on
+							<button className="btn btn-secondary" onClick={()=>window.location.reload()}>Activate configuration on
 								site
 							</button>
 						</div>
@@ -212,3 +210,5 @@ export const ControlPanel = ({ location }) => {
 		</Fragment>
 	);
 };
+export default ControlPanel;
+

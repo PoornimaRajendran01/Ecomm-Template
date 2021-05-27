@@ -6,7 +6,7 @@ import { ToastProvider } from "react-toast-notifications";
 import { multilanguage, loadLanguages } from "redux-multilanguage";
 import { connect } from "react-redux";
 import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
-import { ControlPanel } from "./pages/other/Config";
+
 
 
 import './app.css';
@@ -57,6 +57,7 @@ const BlogDetailsStandard = lazy(() =>
 );
 
 // other pages
+const ControlPanel = lazy(() => import("./pages/other/Config"));
 const About = lazy(() => import("./pages/other/About"));
 const Contact = lazy(() => import("./pages/other/Contact"));
 const MyAccount = lazy(() => import("./pages/other/MyAccount"));
